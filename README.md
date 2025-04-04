@@ -10,7 +10,11 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 ## 🔧 Technologies Used  
 - **HTML** – Structure of the website  
 - **CSS** – Styling and layout  
-- **JavaScript** – Interactivity (dropdown navigation, animations)  
+- **JavaScript** – Interactivity (dropdown navigation, animations)
+
+ ## 🌐 Live Website
+
+[Click here to view my portfolio]   https://techebuzz.github.io/Project/
 
 ## 📥 Installation  
 If you'd like to run this project locally:  
