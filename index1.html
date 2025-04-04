@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags and external resources -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Engineering Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation header with dropdown menu -->
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                    <a href="#skills">Skills</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#mechanical">Mechanical</a></li>
+                        <li><a href="#web-dev">Web Development</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Personal section with profile and introduction -->
+    <section id="home" class="personal">
+        <div class="personal-info">
+            <img src="profile.jpg" alt="Profile Photo" class="profile-photo">
+            <h1>Hi, I'm <span>Gerald Kanja</span></h1>
+            <h2>Mechanical Engineer & Aspiring Web Developer</h2>
+            <p>Bridging the gap between mechanical engineering and digital innovation</p>
+        </div>
+    </section>
+
+    <!-- About section with personal description -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>As a mechanical engineer with a passion for technology, I'm on an exciting journey to combine my engineering expertise with web development skills. My background in mechanical engineering has given me strong problem-solving abilities and a systematic approach to challenges.</p>
+                    <p>I'm currently learning web development to create innovative solutions that bridge the physical and digital worlds. This portfolio showcases my progress and projects as I develop my skills in HTML and CSS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section with two categories -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <!-- Mechanical engineering skills -->
+                <div class="skill-category" id="mechanical">
+                    <h3>Mechanical Engineering</h3>
+                    <ul>
+                        <li>CAD Design</li>
+                        <li>Finite Element Analysis</li>
+                        <li>Thermodynamics</li>
+                        <li>Fluid Mechanics</li>
+                        <li>Project Management</li>
+                    </ul>
+                </div>
+                <!-- Web development skills -->
+                <div class="skill-category" id="web-dev">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Responsive Design</li>
+                        <li>Problem Solving</li>
+                        <li>Continuous Learning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section with info and social links -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <!-- Contact information -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>geraldkanja4@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+254 706543346</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Nairobi, Kenya</p>
+                    </div>
+                    <!-- CV download button -->
+                    <div class="contact-item">
+                        <a href="cv.pdf" download class="cv-download">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Social media links -->
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/geraldkanja3/" class="contact-icon linkedin"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/techebuzz" class="contact-icon github"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/KanjaGe_?t=2tw03FKa8JiFJLPLfLSvSg&s=09" class="contact-icon twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with copyright -->
+    <footer>
+        <p>&copy; 2025 Gerald Kanja.</p>
+    </footer>
+</body>
+</html>
